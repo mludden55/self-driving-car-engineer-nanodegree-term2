@@ -1,0 +1,137 @@
+﻿  ukf.cpp
+  tools.cpp
+  main.cpp
+c:\vcpkg\installed\x86-windows\include\uws\networking.h(70): warning C4251: 'uS::TLS::Context::password': class 'std::shared_ptr<std::string>' needs to have dll-interface to be used by clients of class 'uS::TLS::Context'
+  c:\vcpkg\installed\x86-windows\include\uws\networking.h(70): note: see declaration of 'std::shared_ptr<std::string>'
+c:\vcpkg\installed\x86-windows\include\uws\networking.h(75): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+c:\vcpkg\installed\x86-windows\include\uws\networking.h(92): warning C4800: 'SSL_CTX *': forcing value to bool 'true' or 'false' (performance warning)
+c:\vcpkg\installed\x86-windows\include\uws\networking.h(134): warning C4251: 'uS::NodeData::transferQueue': class 'std::vector<uS::NodeData::TransferData,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'uS::NodeData'
+          with
+          [
+              _Ty=uS::NodeData::TransferData
+          ]
+  c:\vcpkg\installed\x86-windows\include\uws\networking.h(134): note: see declaration of 'std::vector<uS::NodeData::TransferData,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uS::NodeData::TransferData
+          ]
+c:\vcpkg\installed\x86-windows\include\uws\networking.h(135): warning C4251: 'uS::NodeData::changePollQueue': class 'std::vector<uv_poll_t *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'uS::NodeData'
+          with
+          [
+              _Ty=uv_poll_t *
+          ]
+  c:\vcpkg\installed\x86-windows\include\uws\networking.h(135): note: see declaration of 'std::vector<uv_poll_t *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=uv_poll_t *
+          ]
+c:\vcpkg\installed\x86-windows\include\uws\networking.h(139): warning C4800: 'std::size_t': forcing value to bool 'true' or 'false' (performance warning)
+c:\vcpkg\installed\x86-windows\include\uws\networking.h(139): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\vcpkg\installed\x86-windows\include\uws\socket.h(46): warning C4244: 'argument': conversion from 'uv_os_sock_t' to 'int', possible loss of data
+c:\vcpkg\installed\x86-windows\include\uws\socket.h(379): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\vcpkg\installed\x86-windows\include\uws\socket.h(384): warning C4244: 'argument': conversion from 'ssize_t' to 'int', possible loss of data
+c:\vcpkg\installed\x86-windows\include\uws\socket.h(398): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\vcpkg\installed\x86-windows\include\uws\httpsocket.h(17): warning C4800: 'char *': forcing value to bool 'true' or 'false' (performance warning)
+c:\vcpkg\installed\x86-windows\include\uws\node.h(19): warning C4251: 'uS::Node::asyncMutex': class 'std::mutex' needs to have dll-interface to be used by clients of class 'uS::Node'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\mutex(78): note: see declaration of 'std::mutex'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(17): warning C4251: 'uWS::Group<true>::connectionHandler': class 'std::function<void (uWS::WebSocket<true>,uWS::HttpRequest)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(17): note: see declaration of 'std::function<void (uWS::WebSocket<true>,uWS::HttpRequest)>'
+  c:\vcpkg\installed\x86-windows\include\uws\hub.h(14): note: see reference to class template instantiation 'uWS::Group<true>' being compiled
+c:\vcpkg\installed\x86-windows\include\uws\group.h(18): warning C4251: 'uWS::Group<true>::messageHandler': class 'std::function<void (uWS::WebSocket<true>,char *,std::size_t,uWS::OpCode)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(18): note: see declaration of 'std::function<void (uWS::WebSocket<true>,char *,std::size_t,uWS::OpCode)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(19): warning C4251: 'uWS::Group<true>::disconnectionHandler': class 'std::function<void (uWS::WebSocket<true>,int,char *,std::size_t)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(19): note: see declaration of 'std::function<void (uWS::WebSocket<true>,int,char *,std::size_t)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(20): warning C4251: 'uWS::Group<true>::pingHandler': class 'std::function<void (uWS::WebSocket<true>,char *,std::size_t)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(20): note: see declaration of 'std::function<void (uWS::WebSocket<true>,char *,std::size_t)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(21): warning C4251: 'uWS::Group<true>::pongHandler': class 'std::function<void (uWS::WebSocket<true>,char *,std::size_t)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(20): note: see declaration of 'std::function<void (uWS::WebSocket<true>,char *,std::size_t)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(23): warning C4251: 'uWS::Group<true>::httpConnectionHandler': class 'std::function<void (uWS::HttpSocket<true>)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(23): note: see declaration of 'std::function<void (uWS::HttpSocket<true>)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(24): warning C4251: 'uWS::Group<true>::httpRequestHandler': class 'std::function<void (uWS::HttpResponse *,uWS::HttpRequest,char *,std::size_t,std::size_t)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(24): note: see declaration of 'std::function<void (uWS::HttpResponse *,uWS::HttpRequest,char *,std::size_t,std::size_t)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(25): warning C4251: 'uWS::Group<true>::httpDataHandler': class 'std::function<void (uWS::HttpResponse *,char *,std::size_t,std::size_t)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(25): note: see declaration of 'std::function<void (uWS::HttpResponse *,char *,std::size_t,std::size_t)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(26): warning C4251: 'uWS::Group<true>::httpCancelledRequestHandler': class 'std::function<void (uWS::HttpResponse *)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(26): note: see declaration of 'std::function<void (uWS::HttpResponse *)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(28): warning C4251: 'uWS::Group<true>::httpDisconnectionHandler': class 'std::function<void (uWS::HttpSocket<true>)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(23): note: see declaration of 'std::function<void (uWS::HttpSocket<true>)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(29): warning C4251: 'uWS::Group<true>::httpUpgradeHandler': class 'std::function<void (uWS::HttpSocket<true>,uWS::HttpRequest)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(29): note: see declaration of 'std::function<void (uWS::HttpSocket<true>,uWS::HttpRequest)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(32): warning C4251: 'uWS::Group<true>::errorHandler': class 'std::function<void (int)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(32): note: see declaration of 'std::function<void (int)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(37): warning C4251: 'uWS::Group<true>::userPingMessage': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(55): warning C4251: 'uWS::Group<true>::iterators': class 'std::stack<uv_poll_t *,std::deque<_Ty,std::allocator<_Ty>>>' needs to have dll-interface to be used by clients of struct 'uWS::Group<true>'
+          with
+          [
+              _Ty=uv_poll_t *
+          ]
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(55): note: see declaration of 'std::stack<uv_poll_t *,std::deque<_Ty,std::allocator<_Ty>>>'
+          with
+          [
+              _Ty=uv_poll_t *
+          ]
+c:\vcpkg\installed\x86-windows\include\uws\group.h(17): warning C4251: 'uWS::Group<false>::connectionHandler': class 'std::function<void (uWS::WebSocket<false>,uWS::HttpRequest)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(17): note: see declaration of 'std::function<void (uWS::WebSocket<false>,uWS::HttpRequest)>'
+  c:\vcpkg\installed\x86-windows\include\uws\hub.h(14): note: see reference to class template instantiation 'uWS::Group<false>' being compiled
+c:\vcpkg\installed\x86-windows\include\uws\group.h(18): warning C4251: 'uWS::Group<false>::messageHandler': class 'std::function<void (uWS::WebSocket<false>,char *,std::size_t,uWS::OpCode)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(18): note: see declaration of 'std::function<void (uWS::WebSocket<false>,char *,std::size_t,uWS::OpCode)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(19): warning C4251: 'uWS::Group<false>::disconnectionHandler': class 'std::function<void (uWS::WebSocket<false>,int,char *,std::size_t)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(19): note: see declaration of 'std::function<void (uWS::WebSocket<false>,int,char *,std::size_t)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(20): warning C4251: 'uWS::Group<false>::pingHandler': class 'std::function<void (uWS::WebSocket<false>,char *,std::size_t)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(20): note: see declaration of 'std::function<void (uWS::WebSocket<false>,char *,std::size_t)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(21): warning C4251: 'uWS::Group<false>::pongHandler': class 'std::function<void (uWS::WebSocket<false>,char *,std::size_t)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(20): note: see declaration of 'std::function<void (uWS::WebSocket<false>,char *,std::size_t)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(23): warning C4251: 'uWS::Group<false>::httpConnectionHandler': class 'std::function<void (uWS::HttpSocket<false>)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(23): note: see declaration of 'std::function<void (uWS::HttpSocket<false>)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(24): warning C4251: 'uWS::Group<false>::httpRequestHandler': class 'std::function<void (uWS::HttpResponse *,uWS::HttpRequest,char *,std::size_t,std::size_t)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(24): note: see declaration of 'std::function<void (uWS::HttpResponse *,uWS::HttpRequest,char *,std::size_t,std::size_t)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(25): warning C4251: 'uWS::Group<false>::httpDataHandler': class 'std::function<void (uWS::HttpResponse *,char *,std::size_t,std::size_t)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(25): note: see declaration of 'std::function<void (uWS::HttpResponse *,char *,std::size_t,std::size_t)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(26): warning C4251: 'uWS::Group<false>::httpCancelledRequestHandler': class 'std::function<void (uWS::HttpResponse *)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(26): note: see declaration of 'std::function<void (uWS::HttpResponse *)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(28): warning C4251: 'uWS::Group<false>::httpDisconnectionHandler': class 'std::function<void (uWS::HttpSocket<false>)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(23): note: see declaration of 'std::function<void (uWS::HttpSocket<false>)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(29): warning C4251: 'uWS::Group<false>::httpUpgradeHandler': class 'std::function<void (uWS::HttpSocket<false>,uWS::HttpRequest)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(29): note: see declaration of 'std::function<void (uWS::HttpSocket<false>,uWS::HttpRequest)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(32): warning C4251: 'uWS::Group<false>::errorHandler': class 'std::function<void (void *)>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(32): note: see declaration of 'std::function<void (void *)>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(37): warning C4251: 'uWS::Group<false>::userPingMessage': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\vcpkg\installed\x86-windows\include\uws\group.h(55): warning C4251: 'uWS::Group<false>::iterators': class 'std::stack<uv_poll_t *,std::deque<_Ty,std::allocator<_Ty>>>' needs to have dll-interface to be used by clients of struct 'uWS::Group<false>'
+          with
+          [
+              _Ty=uv_poll_t *
+          ]
+  c:\vcpkg\installed\x86-windows\include\uws\group.h(55): note: see declaration of 'std::stack<uv_poll_t *,std::deque<_Ty,std::allocator<_Ty>>>'
+          with
+          [
+              _Ty=uv_poll_t *
+          ]
+c:\vcpkg\installed\x86-windows\include\uws\hub.h(35): warning C4251: 'uWS::Hub::dynamicInflationBuffer': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'uWS::Hub'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\mike\carnd-unscented-kalman-filter-project\src\main.cpp(78): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+c:\users\mike\carnd-unscented-kalman-filter-project\src\main.cpp(91): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+c:\vcpkg\installed\x86-windows\include\uws\socket.h(428): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\vcpkg\installed\x86-windows\include\uws\httpsocket.h(206): note: see reference to function template instantiation 'void uS::Socket::sendTransformed<uWS::HttpResponse::write::NoopTransformer,int>(const char *,std::size_t,void (__cdecl *)(void *,void *,bool,void *),void *,D)' being compiled
+          with
+          [
+              D=int
+          ]
+  Generating Code...
+     Creating library C:\Users\mike\CarND-Unscented-Kalman-Filter-Project\x64\Debug\UnscentedKF.lib and object C:\Users\mike\CarND-Unscented-Kalman-Filter-Project\x64\Debug\UnscentedKF.exp
+main.obj : error LNK2019: unresolved external symbol __imp_closesocket referenced in function "void __cdecl close(unsigned __int64)" (?close@@YAX_K@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_send referenced in function "public: bool __cdecl uS::Socket::write(struct uS::SocketData::Queue::Message *,bool &)" (?write@Socket@uS@@QEAA_NPEAUMessage@Queue@SocketData@2@AEA_N@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_setsockopt referenced in function "int __cdecl setsockopt(unsigned __int64,int,int,void const *,int)" (?setsockopt@@YAH_KHHPEBXH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_shutdown referenced in function "public: void __cdecl uS::Socket::shutdown(void)" (?shutdown@Socket@uS@@QEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol "void __cdecl uv_close(struct uv_poll_s *,void (__cdecl*)(struct uv_handle_s *))" (?uv_close@@YAXPEAUuv_poll_s@@P6AXPEAUuv_handle_s@@@Z@Z) referenced in function "public: void __cdecl uS::Socket::close(void)" (?close@Socket@uS@@QEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol "void __cdecl uv_close(struct uv_timer_s *,void (__cdecl*)(struct uv_handle_s *))" (?uv_close@@YAXPEAUuv_timer_s@@P6AXPEAUuv_handle_s@@@Z@Z) referenced in function "public: void __cdecl uS::Socket::cancelTimeout(void)" (?cancelTimeout@Socket@uS@@QEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol "bool __cdecl uv_is_closing(struct uv_poll_s *)" (?uv_is_closing@@YA_NPEAUuv_poll_s@@@Z) referenced in function "public: bool __cdecl uS::Socket::isClosed(void)" (?isClosed@Socket@uS@@QEAA_NXZ)
+main.obj : error LNK2019: unresolved external symbol "public: static void __cdecl uS::NodeData::asyncCallback(struct uv_async_s *)" (?asyncCallback@NodeData@uS@@SAXPEAUuv_async_s@@@Z) referenced in function "public: void __cdecl uS::NodeData::addAsync(void)" (?addAsync@NodeData@uS@@QEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol "protected: __cdecl uWS::Group<1>::Group<1>(int,struct uWS::Hub *,struct uS::NodeData *)" (??0?$Group@$00@uWS@@IEAA@HPEAUHub@1@PEAUNodeData@uS@@@Z) referenced in function "public: __cdecl uWS::Hub::Hub(int,bool)" (??0Hub@uWS@@QEAA@H_N@Z)
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl uWS::Group<1>::onConnection(class std::function<void __cdecl(struct uWS::WebSocket<1>,struct uWS::HttpRequest)>)" (?onConnection@?$Group@$00@uWS@@QEAAXV?$function@$$A6AXU?$WebSocket@$00@uWS@@UHttpRequest@2@@Z@std@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl uWS::Group<1>::onMessage(class std::function<void __cdecl(struct uWS::WebSocket<1>,char *,unsigned __int64,enum uWS::OpCode)>)" (?onMessage@?$Group@$00@uWS@@QEAAXV?$function@$$A6AXU?$WebSocket@$00@uWS@@PEAD_KW4OpCode@2@@Z@std@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl uWS::Group<1>::onDisconnection(class std::function<void __cdecl(struct uWS::WebSocket<1>,int,char *,unsigned __int64)>)" (?onDisconnection@?$Group@$00@uWS@@QEAAXV?$function@$$A6AXU?$WebSocket@$00@uWS@@HPEAD_K@Z@std@@@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "protected: __cdecl uWS::Group<0>::Group<0>(int,struct uWS::Hub *,struct uS::NodeData *)" (??0?$Group@$0A@@uWS@@IEAA@HPEAUHub@1@PEAUNodeData@uS@@@Z) referenced in function "public: __cdecl uWS::Hub::Hub(int,bool)" (??0Hub@uWS@@QEAA@H_N@Z)
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl uWS::WebSocket<1>::send(char const *,unsigned __int64,enum uWS::OpCode,void (__cdecl*)(void *,void *,bool,void *),void *)" (?send@?$WebSocket@$00@uWS@@QEAAXPEBD_KW4OpCode@2@P6AXPEAX3_N3@Z3@Z) referenced in function "public: void __cdecl <lambda_55e4123f229fb5a8f10609c63d80c546>::operator()(struct uWS::WebSocket<1>,char *,unsigned __int64,enum uWS::OpCode)const " (??R<lambda_55e4123f229fb5a8f10609c63d80c546>@@QEBAXU?$WebSocket@$00@uWS@@PEAD_KW4OpCode@2@@Z)
+C:\Users\mike\CarND-Unscented-Kalman-Filter-Project\x64\Debug\UnscentedKF.exe : fatal error LNK1120: 14 unresolved externals
